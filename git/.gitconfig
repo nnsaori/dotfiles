@@ -1,0 +1,45 @@
+[core]
+	excludesfile = /Users/saori/.gitignore_global
+[user]
+	name = nnsaori
+	email = saori07208@gmail.com
+[commit]
+	template = /Users/saori/.stCommitMsg
+
+[diff]
+	tool = vimdiff
+	compactionHeuristic = true
+	indentHeuristic = true
+
+[difftool]
+	prompt = false
+[merge]
+	tool = vimdiff
+
+[mergetool]
+	prompt = false
+
+[color "diff"]
+	meta = yellow bold
+	commit = green bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+
+
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = "red bold 52"
+	newNormal = "green bold"
+	newHighlight = "green bold 22"
+
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
