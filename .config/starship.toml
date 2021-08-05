@@ -1,0 +1,7 @@
+# https://starship.rs/config/#git-branch
+
+[git_state]
+format = '[\($state( $progress_current of $progress_total)\)]($style) '
+
+[ruby]
+disabled = true
